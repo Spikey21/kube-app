@@ -35,7 +35,7 @@ spec:
         - name: vpro-db-data
           # This AWS EBS volume must already exist.
           awsElasticBlockStore:
-            volumeID: vol-09d375b37e9f9f96d
+            volumeID: vol-0b8a4b70cfc22b894
             fsType: ext4
       initContainers:
         - name: busybox
