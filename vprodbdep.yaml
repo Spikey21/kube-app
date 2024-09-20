@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vprodb
-        image: spikey21/vprofile-app:latest
+        image: spikey21/vprofile-db:latest
         volumeMounts:
           - name: vpro-db-data
             mountPath: /var/lib/mysql
