@@ -4,9 +4,9 @@ metadata:
   name: vpromq01
 spec:
   selector:
-    app: vpromq01
+    app: vprormq
   ports:
-  - port: 15672
-    targetPort: vpromq01-port
+  - port: 5672
+    targetPort: vprormq-port
     protocol: TCP
   type: ClusterIP
