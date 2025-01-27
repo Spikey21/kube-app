@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: vprofile.kubernet-vpro.spikeytest.xyz
+  - host: kubernet-vpro.spikeytest.xyz
     http:
       paths:
       - path: /

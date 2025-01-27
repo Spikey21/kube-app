@@ -15,6 +15,7 @@ spec:
       containers:
       - name: vproapp
         image: spikey21/vprofile-app:latest
+        imagePullPolicy: Always
         ports:
         - name: vproapp-port
           containerPort: 8080
